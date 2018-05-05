@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Adult -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Adult"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Cheap -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cheap"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Hardcore -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hardcore"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Anime -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Anime">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Arcade -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Arcade">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Classic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Classic">
+        <equivalentClass rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Retro"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Co-op -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Co-op">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiplayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Comedy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Comedy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Difficult -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Difficult">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Hardcore"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Early_Access -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Early_Access">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cheap"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Exploration -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Exploration">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#FPS -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#FPS">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#First-Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fantasy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fantasy">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Female_Protagonist -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Female_Protagonist"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#First-Person -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#First-Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Free_to_Play -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Free_to_Play">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cheap"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Funny -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Funny">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gore -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gore">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Violent"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Great_Soundtrack -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Great_Soundtrack">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Horror -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Horror">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Adult"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Indie -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Indie"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Massively_Multiplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Massively_Multiplayer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiplayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiplayer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Nudity -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Nudity">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Adult"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Open_World -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Open_World">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pixel_Graphics -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pixel_Graphics">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Platformer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Platformer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Indie"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Puzzle -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Puzzle">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RPG">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Racing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Racing">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Simulation"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Retro -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Retro">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rogue-like -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rogue-like">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sandbox -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sandbox">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sci-fi -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sci-fi">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Space"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Shooter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Shooter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#First-Person"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Simulation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Simulation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Singleplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Singleplayer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Space -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Space">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sports -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sports">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Story_Rich -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Story_Rich">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Survival -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Survival">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Third_Person -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Third_Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#VR -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#VR">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Violent -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Violent">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Horror"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Visual_Novel -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Visual_Novel">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Story_Rich"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Point_&amp;_Click -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Point_&amp;_Click">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure"/>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

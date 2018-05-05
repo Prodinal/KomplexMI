@@ -1,0 +1,2109 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Hobby -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hobby"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Old -->
+
+    <Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Old"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Abstract -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Abstract"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action-Adventure -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action-Adventure">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action_RPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action_RPG">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Action"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Agriculture -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Adventure"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Aliens -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Aliens"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Alternate_History -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Alternate_History">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Historical"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#America -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#America"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Anime -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Anime">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cartoony"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Arcade -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Arcade"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Arena_Shooter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Arena_Shooter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Artificial_Intelligence -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Artificial_Intelligence"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Assassin -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Assassin"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Asynchronous_Multiplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Asynchronous_Multiplayer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Atmospheric"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Audio_Production -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Audio_Production"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Base_Building -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Base_Building"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Based_On_A_Novel -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Based_On_A_Novel"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Basketball -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Basketball"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Batman -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Batman"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Benchmark -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Benchmark"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bikes -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bikes"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Blood -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Blood"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Board_Game -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Board_Game"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bowling -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bowling"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Building -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Building"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bullet_Hell -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bullet_Hell"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bullet_Time -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Bullet_Time"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#CRPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#CRPG"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Capitalism -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Capitalism"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Card_Game -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Card_Game"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cartoon -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cartoon"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cartoony -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cartoony"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Casual"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Character_Action_Game -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Character_Action_Game"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Character_Customization -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Character_Customization"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Chess -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Chess"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Choices_Matter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Choices_Matter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Choose_Your_Own_Adventure -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Choose_Your_Own_Adventure"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cinematic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cinematic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#City_Builder -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#City_Builder"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Class-Based -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Class-Based"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Classic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Classic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Clicker -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Clicker"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Co-op -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Co-op"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Co-op_Campaign -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Co-op_Campaign"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cold_War -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cold_War"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Colorful -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Colorful"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Comedy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Comedy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Comic_Book -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Comic_Book"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Competitive -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Competitive"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Conspiracy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Conspiracy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Controller -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Controller"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Conversation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Conversation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Crafting -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Crafting"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Crime -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Crime"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Crowdfunded -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Crowdfunded"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cult_Classic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cult_Classic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cute -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cute"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cyberpunk -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cyberpunk"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cycling -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Cycling"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark_Comedy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark_Comedy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark_Fantasy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark_Fantasy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark_Humor -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dark_Humor"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dating_Sim -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dating_Sim"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Demons -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Demons"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Destruction -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Destruction"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Detective -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Detective"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Difficult -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Difficult"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dinosaurs -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dinosaurs"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Diplomacy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Diplomacy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Documentary -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Documentary"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dragons -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dragons"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Drama -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Drama"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Driving -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Driving"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dungeon_Crawler -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dungeon_Crawler"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dynamic_Narration -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dynamic_Narration"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dystopian_ -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Dystopian_"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Economy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Economy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Education -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Education"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Episodic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Episodic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Experience -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Experience"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Experimental -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Experimental"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Exploration -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Exploration"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#FMV -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#FMV"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#FPS -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#FPS"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Faith -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Faith"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Family_Friendly -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Family_Friendly"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fantasy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fantasy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fast-Paced -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fast-Paced"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Feature_Film -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Feature_Film"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Female_Protagonist -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Female_Protagonist"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fighting -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fighting"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#First-Person -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#First-Person"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fishing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Fishing"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Flight -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Flight"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Football -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Football"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Foreign -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Foreign"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Free_to_Play -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Free_to_Play"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Funny -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Funny"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Futuristic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Futuristic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gambling -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gambling"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#GameMaker -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#GameMaker"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Game_Development -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Game_Development"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Games_Workshop -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Games_Workshop"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gaming -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gaming"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#God_Game -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#God_Game"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Golf -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Golf"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gore -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gore"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gothic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gothic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Grand_Strategy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Grand_Strategy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Great_Soundtrack -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Great_Soundtrack"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Grid-Based_Movement -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Grid-Based_Movement"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gun_Customization -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Gun_Customization"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hack_and_Slash -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hack_and_Slash"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hacking -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hacking"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hand-drawn -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hand-drawn"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hardware -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hardware"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Heist -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Heist"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hex_Grid -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hex_Grid"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hidden_Object -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hidden_Object"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Historical -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Historical"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Horror -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Horror"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Horses -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Horses"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hunting -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Hunting"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Illuminati -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Illuminati"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Indie -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Indie"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Intentionally_Awkward_Controls -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Intentionally_Awkward_Controls"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Interactive_Fiction -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Interactive_Fiction"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Inventory_Management -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Inventory_Management"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Investigation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Investigation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Isometric -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Isometric"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#JRPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#JRPG"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Kickstarter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Kickstarter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#LEGO -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#LEGO"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lara_Croft -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lara_Croft"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lemmings -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lemmings"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Level_Editor -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Level_Editor"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Linear -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Linear"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Local_Co-Op -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Local_Co-Op"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Local_Multiplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Local_Multiplayer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Logic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Logic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Loot -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Loot"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lore-Rich -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lore-Rich"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lovecraftian -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Lovecraftian"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#MMORPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#MMORPG"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#MOBA -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#MOBA"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Magic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Magic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Management -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Management"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mars -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mars"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Martial_Arts -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Martial_Arts"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Massively_Multiplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Massively_Multiplayer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Match_3 -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Match_3"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mature -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mature"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mechs -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mechs"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Medieval -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Medieval"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Memes -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Memes"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Metroidvania -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Metroidvania"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Military -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Military"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mini_Golf -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mini_Golf"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Minigames -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Minigames"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Minimalist -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Minimalist"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mining -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mining"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mod -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mod"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Moddable -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Moddable"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Modern -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Modern"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mouse_only -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mouse_only"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Movie -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Movie"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiplayer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiple_Endings -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiple_Endings"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Music -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Music"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Music-Based_Procedural_Generation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Music-Based_Procedural_Generation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mystery -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mystery"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mystery_Dungeon -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mystery_Dungeon"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mythology -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Mythology"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#NSFW -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#NSFW"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Narration -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Narration"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Naval -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Naval"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Ninja -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Ninja"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Noir -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Noir"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Nonlinear -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Nonlinear"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Nudity -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Nudity"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Offroad -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Offroad"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#On-Rails_Shooter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#On-Rails_Shooter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Online_Co-Op -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Online_Co-Op"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Open_World -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Open_World"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Otome -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Otome"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Parkour -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Parkour"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Parody_ -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Parody_"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Party-Based_RPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Party-Based_RPG"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Perma_Death -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Perma_Death"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Philisophical -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Philisophical"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Photo_Editing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Photo_Editing"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Physics -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Physics"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pinball -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pinball"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pirates -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pirates"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pixel_Graphics -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pixel_Graphics"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Platformer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Platformer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Political -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Political"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Politics -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Politics"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pool -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Pool"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Post-apocalyptic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Post-apocalyptic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Procedural_Generation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Procedural_Generation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Programming -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Programming"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Psychedelic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Psychedelic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Psychological -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Psychological"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Psychological_Horror -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Psychological_Horror"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Puzzle -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Puzzle"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Puzzle-Platformer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Puzzle-Platformer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#PvE -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#PvE"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#PvP -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#PvP"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Quick-Time_Events -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Quick-Time_Events"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RPG"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RPGMaker -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RPGMaker"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RTS -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#RTS"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Racing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Racing"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Real-Time -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Real-Time"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Real-Time_with_Pause -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Real-Time_with_Pause"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Real_Time_Tactics -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Real_Time_Tactics"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Realistic -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Realistic"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Relaxing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Relaxing"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Remake -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Remake"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Replay_Value -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Replay_Value"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Resource_Management -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Resource_Management"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Retro -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Retro"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rhythm -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rhythm"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Robots -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Robots"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rogue-like -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rogue-like"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rogue-lite -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rogue-lite"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Romance -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Romance"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rome -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Rome"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Runner -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Runner"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sailing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sailing"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sandbox -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sandbox"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Satire -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Satire"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sci-fi -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sci-fi"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Science -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Science"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Score_Attack -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Score_Attack"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sexual_Content -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sexual_Content"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Shooter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Shooter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Short -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Short"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Side_Scroller -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Side_Scroller"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Silent_Protagonist -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Silent_Protagonist"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Simulation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Simulation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Singleplayer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Singleplayer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sniper -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sniper"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Soccer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Soccer"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Software -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Software"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Software_Training -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Software_Training"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sokoban -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sokoban"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Soundtrack -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Soundtrack"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Space -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Space"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Space_Sim -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Space_Sim"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Spectacle_fighter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Spectacle_fighter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Spelling -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Spelling"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Split_Screen -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Split_Screen"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sports -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Sports"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Star_Wars -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Star_Wars"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Stealth -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Stealth"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Steam_Machine -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Steam_Machine"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Steampunk -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Steampunk"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Story_Rich -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Story_Rich"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy_RPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy_RPG">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Stylized -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Stylized"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Superhero -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Superhero"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Supernatural -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Supernatural"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Surreal -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Surreal"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Survival -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Survival"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Survival_Horror -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Survival_Horror"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Swordplay -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Swordplay"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tactical -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tactical"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tactical_RPG -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tactical_RPG"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tanks -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tanks"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Team-Based -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Team-Based"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Text-Based -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Text-Based"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Third-Person_Shooter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Third-Person_Shooter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Third_Person -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Third_Person"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Thriller -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Thriller"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Time_Attack -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Time_Attack"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Time_Manipulation -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Time_Manipulation"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Time_Travel -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Time_Travel"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Top-Down -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Top-Down"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Top-Down_Shooter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Top-Down_Shooter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Touch-Friendly -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Touch-Friendly"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tower_Defense -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tower_Defense"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#TrackIR -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#TrackIR"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Trading -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Trading"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Trading_Card_Game -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Trading_Card_Game"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Trains -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Trains"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Transhumanism -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Transhumanism"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based_Combat -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based_Combat"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based_Strategy -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based_Strategy"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based_Tactics -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Turn-Based_Tactics"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tutorial -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Tutorial"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Twin_Stick_Shooter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Twin_Stick_Shooter"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Typing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Typing"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Underground -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Underground"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Underwater -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Underwater"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Utilities -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Utilities"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#VR -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#VR"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Vampire -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Vampire"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Video_Production -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Video_Production"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Villain_Protagonist -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Villain_Protagonist"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Violent -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Violent"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Visual_Novel -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Visual_Novel"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Voice_Control -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Voice_Control"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Voxel -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Voxel"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Walking_Simulator -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Walking_Simulator"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#War -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#War"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Wargame -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Wargame"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Warhammer_40K -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Warhammer_40K"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Web_Publishing -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Web_Publishing"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Werewolves -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Werewolves"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Western -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Western"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Word_Game -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Word_Game"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#World_War_I -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#World_War_I"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#World_War_II -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#World_War_II"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Wrestling -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Wrestling"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Zombies -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Zombies"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#e-sports -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#e-sports"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#1980s -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#1980s">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Old"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#1990&apos;s -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#1990&apos;s">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Old"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D_Fighter -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D_Fighter">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2.5D -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2.5D">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#2D"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#3D_Platformer -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#3D_Platformer">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Platformer"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#3D_Vision -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#3D_Vision"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#360_Video -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#360_Video">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Video_Production"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#4X -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#4X">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Strategy"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#4_Player_Local -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#4_Player_Local">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Multiplayer"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#6DOF -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#6DOF"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Animation_&amp;_Modeling -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Animation_&amp;_Modeling">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Hobby"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Beat_&apos;em_up -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Beat_&apos;em_up"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Design_&amp;_Illustration -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Design_&amp;_Illustration"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Point_&amp;_Click -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Point_&amp;_Click"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Shoot_&apos;Em_Up -->
+
+    <Class rdf:about="http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#Shoot_&apos;Em_Up"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
