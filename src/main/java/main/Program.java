@@ -1,6 +1,7 @@
 package main;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.List;
@@ -27,24 +28,23 @@ public class Program {
 			
 			//PrintGameDataToDb();
 			
-			//debugGetTagsForGame();
-			
-			//debugSearchForTag();
-			
-			//debugGetSubclasses();
-			while(true) {
-				BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		        System.out.print("Enter tag to search for: ");
-		        String term = br.readLine();
-				if(term.equals("-1")) {
-					break;
-				}
-				Search(term);
-			}
+			RunSearchFunction();
 			
 			System.out.println("Finished c:");
 		} catch (Exception e) {
 			e.printStackTrace();
+		}
+	}
+	
+	private static void RunSearchFunction() throws IOException {
+		while(true) {
+			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	        System.out.print("Enter tag to search for: ");
+	        String term = br.readLine();
+			if(term.equals("-1")) {
+				break;
+			}
+			Search(term);
 		}
 	}
 	
