@@ -70,10 +70,10 @@ public class Program {
 		SemanticSearcher searcher = new SemanticSearcher(new DatabaseManager());
 		Set<String> results = searcher.Search(term);
 		System.out.println("Results:");
-		System.out.printf ("%-8s %-10s \n", "Appid", "Title");
+		System.out.printf ("%-8s %-40s %s \n", "Appid", "Title", "Url");
 		for(String r : results) {
 			String[] parts = r.split(DatabaseManager.separator);
-			System.out.printf ("%-8s %-15s \n", parts[0], parts[1]);
+			System.out.printf ("%-8s %-40s %s \n", parts[0], parts[1], GameDownloader.individualGamePageUrl + parts[0]);
 		}
 		Set<String> withoutOntologyResults = searcher.Search(term, false);
 		Set<String> leftOutGames = new HashSet<String>(results);

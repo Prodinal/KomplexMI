@@ -21,7 +21,7 @@ public class GameDownloader {
 
 	private static final String gamesListUrl = "http://api.steampowered.com/ISteamApps/GetAppList/v0001/";
 	private static final String individualGameDataUrl = "https://store.steampowered.com/api/appdetails?appids=";
-	private static final String individualGamePageUrl = "https://store.steampowered.com/app/";
+	public static final String individualGamePageUrl = "https://store.steampowered.com/app/";
 	private static final String tagExtractRegex = "<a href=\"https:\\/\\/store\\.steampowered\\.com\\/tags\\/.+?\" class=\"app_tag\" (style=\".+?\")?>(.+?)(\\t)+?<\\/a>";
 
 	private final JsonParser jp;
