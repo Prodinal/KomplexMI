@@ -14,11 +14,18 @@ import databaseControl.GameDownloader;
 import semanticSearch.SemanticSearcher;
 
 public class Program {
-	private static final String outputPath = "GamingOntology.owl";
+	private static String outputPath = "GamingOntology.owl";
 	
 	public static void main(String[] args) {		
 		try {
 			System.out.println("Program start");			
+			
+			if(args == null || args.length == 0) {
+				System.out.println("Missing function argument, possible values: (Search, CreateOntology, FillDB)");
+				System.exit(-1);
+			}
+			
+			ProgramStart(args);
 			
 			//CreateOntology();
 			
@@ -28,11 +35,22 @@ public class Program {
 			
 			//PrintGameDataToDb();
 			
-			RunSearchFunction();
+			//RunSearchFunction();
 			
 			System.out.println("Finished c:");
 		} catch (Exception e) {
 			e.printStackTrace();
+		}
+	}
+	
+	private static void ProgramStart(String[] args) throws Exception {
+		String function = args[0].toLowerCase().trim();
+		
+		switch (function) {
+			case "search": RunSearchFunction(); break;
+			case "createontology": CreateOntology(); break;
+			case "filldb": PrintGameDataToDb(); break;
+			default: System.out.println("Unknown keyword: " + function); break;
 		}
 	}
 	
@@ -84,15 +102,22 @@ public class Program {
 	}
 	
 	private static List<String> DownloadTags() {
-		//List<String> tags = TagDownloader.getTagsFromSteamPage();
 		List<String> tags = TagDownloader.getTagsFromSteamSpy();
 		System.out.println(tags);
 		return tags;
 	}
 	
 	private static void CreateOntology() throws Exception {
-		List<String> tags = DownloadTags();
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.print("Ontology name or path: ");
+        String term = br.readLine();
+        if(!(term.isEmpty() || term.length() == 0)) {
+        	outputPath = term;
+        } else {
+        	System.out.println("Using default path: " + outputPath);
+        }
 		
+        List<String> tags = DownloadTags();
 		OntologyClassCreator creator = new OntologyClassCreator();
 		creator.CreateClasses(tags);
 		creator.SaveOntology(outputPath);
@@ -115,6 +140,7 @@ public class Program {
 		GameDownloader gd = new GameDownloader();
 		List<String> data = gd.DownloadGameData(gd.GetAppids());
 		DatabaseManager manager = new DatabaseManager();
+		manager.ResetDatabase();
 		manager.SaveToDatabase(data);
 	}
 

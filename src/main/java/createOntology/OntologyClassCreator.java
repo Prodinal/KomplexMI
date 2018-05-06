@@ -1,6 +1,5 @@
 package createOntology;
 
-import java.io.File;
 import java.io.FileOutputStream;
 import java.util.List;
 
@@ -33,6 +32,7 @@ public class OntologyClassCreator {
 		manager = OWLManager.createOWLOntologyManager();
 		fac = manager.getOWLDataFactory();
 		onto = manager.createOntology();
+		manager.getOntologyFormat(onto);
 		pm = (PrefixDocumentFormat)manager.getOntologyFormat(onto);
 		pm.setDefaultPrefix(namespace);
 		System.out.println("Ontológia betöltve: " + manager.getOntologyDocumentIRI(onto));

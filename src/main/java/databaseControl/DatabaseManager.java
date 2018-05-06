@@ -41,6 +41,12 @@ public class DatabaseManager {
 		repo = new HTTPRepository(url, repoId);
 		factory = repo.getValueFactory();
 	}
+	
+	public void ResetDatabase() {
+		try (RepositoryConnection conn = repo.getConnection()) {
+			conn.clearNamespaces();
+		}
+	}
 
 	public void SaveToDatabase(List<String> data) {
 		try (RepositoryConnection conn = repo.getConnection()) {
