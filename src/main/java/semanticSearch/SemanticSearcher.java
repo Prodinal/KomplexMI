@@ -23,7 +23,10 @@ import createOntology.OntologyClassCreator;
 import databaseControl.DatabaseManager;
 
 public class SemanticSearcher {
-	private static final String ontologyPath = "GamingOntology_done.owl";
+	/**
+	 * The file path from where the ontology should be loaded.
+	 */
+	public static String ontologyPath = "GamingOntology_done.owl";
 	private static final String ontologyNamespace = "http://www.w3.org/2002/07/hu.komplexmi.e5q6ui#";
 	private final DatabaseManager dm;
 	
@@ -32,6 +35,13 @@ public class SemanticSearcher {
     OWLReasoner reasoner;
     OWLDataFactory factory;
 	
+    /**
+     * Main constructor, expects a databasemanager, which could be an empty one.
+     * Loads the ontology from the set path, and checks if it is consistent,
+     * kills program if not.
+     * 
+     * @param dm DatabaseManager object, can be a brand new one.
+     */
 	public SemanticSearcher(DatabaseManager dm) {
 		this.dm = dm;
 		manager = OWLManager.createOWLOntologyManager();
@@ -59,6 +69,16 @@ public class SemanticSearcher {
 		factory = manager.getOWLDataFactory();
 	}
 	
+	/**
+	 * Searches ontology classesfor given className, 
+	 * and returns its descendants, if direct is True, then only direct ones,
+	 * otherwise every descendant is returned.
+	 * 
+	 * @param className name of ontology class to search for
+	 * @param direct return every descendant or only the direct ones
+	 * @return A String list containing the fragment parts of the name of the descendants,
+	 * 		   or empty list if class is not found in ontoloy, or there are no descendants.
+	 */
 	public List<String> getSubClasses(String className, boolean direct) {
         IRI clsIRI = IRI.create(ontologyNamespace + className);
         System.out.println("Searching for IRI: " + clsIRI);
@@ -83,10 +103,28 @@ public class SemanticSearcher {
         return result;
     }
 	
+	/**
+	 * Calls the other Search method with expandSearch=true.
+	 * 
+	 * @param search
+	 * @return A String set containing the results to the search.
+	 * @see Search(String search, boolean expandSearch)
+	 */
 	public Set<String> Search(String search){
 		return Search(search, true);
 	}
 	
+	/**
+	 * Searches for the given search argument and also its descendants in the ontology
+	 * if expandSearch is set to True. Uses getSubClasses method.
+	 * Every entry in the returned String set contains the appid and title of a game,
+	 * separated by the SEPARATOR in DatabaseManager
+	 * E.g. 470_Dota2
+	 * 
+	 * @param search Tag to search for.
+	 * @param expandSearch If true also includes descendants of Tag in ontology in the search.
+	 * @return A String set containing the results to the search.
+	 */
 	public Set<String> Search(String search, boolean expandSearch){
 		Set<String> result = new HashSet<>();
 		result.addAll(dm.searchForTag(search));

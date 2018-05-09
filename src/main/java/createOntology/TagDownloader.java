@@ -21,6 +21,14 @@ public class TagDownloader {
 	
 	private static final String tagsCsvPath = "tags.csv";
 	
+	
+	/**
+	 * Returns a String list containing all the tags present on the steam tags page.
+	 * <a href='https://store.steampowered.com/tag/browse#global_492'>https://store.steampowered.com/tag/browse#global_492</a>
+	 * The method uses the fixed regexp expression to extract all the tags from the raw html source of the webpage.
+	 *
+	 * @return      a String list containing the tags
+	 */
 	public static List<String> getTagsFromSteamPage(){
 		List<String> result = new ArrayList<String>();
 		Pattern pattern = Pattern.compile(tagExtractRegex);
@@ -48,6 +56,12 @@ public class TagDownloader {
 		return result;
 	}
 	
+	/**
+	 * Returns a String list from the top 50 tags present in the provided tags.csv file.
+	 * Should only be used to create a prototype, normally use getTagsFromSteamPage()
+	 *
+	 * @return      a String list containing the tags
+	 */
 	public static List<String> getTagsFromSteamSpy(){
 		List<String> result = new ArrayList<String>();
 		

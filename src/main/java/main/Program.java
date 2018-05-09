@@ -16,6 +16,12 @@ import semanticSearch.SemanticSearcher;
 public class Program {
 	private static String outputPath = "GamingOntology.owl";
 	
+	/**
+	 * Main entry point of the program. The first parameter must
+	 * be either 'Search' 'CreateOntology' or 'FillDB'
+	 * 
+	 * @param args Command line arguments passed to the program.
+	 */
 	public static void main(String[] args) {		
 		try {
 			System.out.println("Program start");			
@@ -43,7 +49,20 @@ public class Program {
 		}
 	}
 	
-	private static void ProgramStart(String[] args) throws Exception {
+	/**
+	 * Main control function, decides which function to run based on parameter.
+	 * 'Search' runs the main function of the project: expects a tag from user input, and searches for said tag.
+	 * Prints out the results in three columns: appId, title, url (where the game might be accessed)
+	 * Also prints out which games are found thanks to the ontology so we can feel good about ourselves.
+	 * 'CreateOntology' Asks the user for necessary input, and Creates an ontology containing all the tags,
+	 * but no additional information, ontology needs to be ordered manually.
+	 * 'FillDB' Resets the database, downloads the set number of games from Steam,
+	 *  and fills the RDF database with this data.
+	 * 
+	 * @param args String list, first element must be either 'Search' 'CreateOntology' or 'FillDB'
+	 * @throws Exception If something breaks. Shouldnt really happen.
+	 */
+	public static void ProgramStart(String[] args) throws Exception {
 		String function = args[0].toLowerCase().trim();
 		
 		switch (function) {

@@ -28,6 +28,11 @@ public class OntologyClassCreator {
 	final OWLReasoner reasoner;
 	final OWLDataFactory fac;
 	
+	/**
+	 *  Standard constructor for the class.
+	 *  Initializes and sets up the private ontology manager, 
+	 *  the ontology used, the reasoner and the object factory.
+	 */
 	public OntologyClassCreator() throws Exception {
 		manager = OWLManager.createOWLOntologyManager();
 		fac = manager.getOWLDataFactory();
@@ -42,10 +47,16 @@ public class OntologyClassCreator {
 		reasoner = reasonerFactory.createReasoner(onto);
 	}
 	
-	public OWLClass cls(String name) {
+	private OWLClass cls(String name) {
 		return fac.getOWLClass(name, pm);
 	}
 	
+	/**
+	 * Creates an owl class for every element in the given list.
+	 * Every created entity uses the namespace http://hu.komplexmi.e5q6ui#
+	 *
+	 * @param  tags  A String list containing all the tags.
+	 */
 	public void CreateClasses(List<String> tags) {
 		for(String tag : tags) {
 			OWLClass tagClass = cls(tag);
@@ -55,6 +66,13 @@ public class OntologyClassCreator {
 		}
 	}
 	
+	
+	/**
+	 * Saves the ontology in an RDF Xml format to the filepath given.
+	 * .owl extension advised.
+	 *
+	 * @param  filePath  The filepath where the new ontology file should be created.
+	 */
 	public void SaveOntology(String filePath) {
 		try {
 			manager.saveOntology(onto, new RDFXMLDocumentFormat(), new FileOutputStream(filePath));
