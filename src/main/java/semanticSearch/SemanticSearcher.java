@@ -131,6 +131,7 @@ public class SemanticSearcher {
 		
 		if(expandSearch) {
 			for(String extraSearch : getSubClasses(search, false)) {
+				System.out.println("Extra tag added to search: " + extraSearch);
 				result.addAll(dm.searchForTag(extraSearch));
 			}			
 		}
